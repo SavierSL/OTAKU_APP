@@ -33,7 +33,7 @@ const main = async () => {
     type: "postgres",
     database: "otaku",
     username: "postgres",
-    password: "xxkaa548",
+    password: "secret123",
     logging: true,
     synchronize: true,
     entities: [AnimePost, User, Profile, Comment, Anime],
